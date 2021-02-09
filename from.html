@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <style>
+    body{
+        text-align: center;
+        background-color: rgb(113, 215, 246);
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    table,th,td{
+        text-align: center;
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: black;
+        color: white;
+    }
+    td{
+        padding: 15px;
+    }
+    label{
+        margin: 10px;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <h1>National Institute Of Technology Warangal</h1>
+    <h1>Department of Electronics and Communication Engineering</h1>
+    <h1>Registration Form</h1>
+    <form id="form1">
+        <table>
+            <tr>
+                <th colspan="3">Personal Information</th>
+            </tr>
+            <tr>
+                <td colspan="2"><label>Name</label>
+                    <input type="text" placeholder="Name">
+                </td>
+                <td><label>Registration Number </label>
+                    <input type="text" placeholder="Number">
+                </td>
+            </tr>
+            <tr>
+                <td><label>RollNumber </label>
+                    <input type="text" placeholder="rollnumber">
+                </td>
+                <td><label>Gender </label>
+                    <select id="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+                <td>
+                    <label>Date of Birth</label>
+                    <input type="date">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <form id="from2">
+        <table>
+            <tr>
+                <td colspan="3">Course Information</td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Year of Joining</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label>Year of Study</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label>Year of Study</label>
+                    <select>
+                        <option>Normal</option>
+                        <option>DASA</option>
+                        <option>SPDC</option>
+                        <option>MEA</option>
+                    </select></td> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Course</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label>Branch</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label>Section</label>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <form id="from3">
+        <table>
+            <tr>
+                <th colspan="3">Select Courses</th>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Data Newtworks
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+            <tr>   
+                <td colspan="3">
+                    <label>
+                        Digital System Processing
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Embedded and Real Time Operating Systems
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Information theory and coding
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+                
+            <tr></tr>
+                <td colspan="3">
+                    <label>
+                        Low Power VLSI Technologies
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Web Technology
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Communication Systems Lab
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Data Newtworks Lab
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <label>
+                        Communication System
+                    </label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <input type="button" value="Submit">
+</body>
+
+</html>
